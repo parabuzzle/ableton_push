@@ -193,7 +193,20 @@ MUSICAL_MODES = ['Major',
   5,
   6,
   8,
-  10]]
+  10]
+ 'Chromatic',
+ [0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11]]
 MIN_OFF_THRESHOLD = 10
 MAX_OFF_THRESHOLD = 370
 MIN_ON_THRESHOLD = 10
@@ -246,17 +259,17 @@ class MessageBoxText:
     MAX_RETURN_TRACKS_REACHED = '\n                  Maximum number of return tracks' + '\n                  reached'
     TRACK_DUPLICATION_FAILED = '\n                  This track cannot be duplicated' + '\n                      because it is recording'
     TRACK_DELETE_FAILED = '\n                  This track cannot be deleted' + '\n                      because it is recording'
-    DELETE_TRACK = '                  Track deleted:    %s'
+    DELETE_TRACK = '                  OMG! Track deleted:    %s'
     DUPLICATE_TRACK = '                  Track duplicated: %s'
-    DELETE_CLIP = '                  Clip deleted:     %s'
+    DELETE_CLIP = '                  OMG! Clip deleted:     %s'
     DUPLICATE_CLIP = '                  Clip duplicated:  %s'
     QUANTIZE_CLIP = '                  Quantized to:     %(to)s, %(amount)s'
     QUANTIZE_CLIP_PITCH = '                  Quantized pad to: %(to)s, %(amount)s'
     CAPTURE_AND_INSERT_SCENE = '                      Duplicated to scene %s'
     DUPLICATE_LOOP = '                   New loop length: %(length)s'
-    DELETE_SCENE = '                  Scene deleted:    %s'
+    DELETE_SCENE = '                  OMG! Scene deleted:    %s'
     DUPLICATE_SCENE = '                  Scene duplicated: %s'
-    DELETE_ENVELOPE = '                  Delete automation %(automation)s'
+    DELETE_ENVELOPE = '                  OMG! Delete automation %(automation)s'
     EMPTY_DEVICE_CHAIN = '\n\n               No Devices.    Press [Browse] to add a device.'
     STUCK_PAD_WARNING = '         Warning: Low threshold may cause stuck pads'
 
