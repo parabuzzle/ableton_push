@@ -1,6 +1,8 @@
 Ableton Push Python Scripts
 ============
 
+If you like what I'm doing here... help a brother out :) -> http://pledgie.com/campaigns/20946
+
 My customized Ableton Push MIDI remote python scripts directory
 
 Features that I have changed:
