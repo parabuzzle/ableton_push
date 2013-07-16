@@ -46,7 +46,7 @@ class QuantizationSettingsComponent(ControlSurfaceComponent):
         default_quantize = RecordingQuantization.rec_q_sixtenth
         self._record_quantization = default_quantize
         self._quantize_to = default_quantize
-        self._quantize_amount = 1.0
+        self._quantize_amount = 0.75
         default_quantize_float = record_quantization_to_float(default_quantize)
         self._record_quantization_float = default_quantize_float
         self._quantize_to_float = default_quantize_float
