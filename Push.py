@@ -733,6 +733,7 @@ class Push(ControlSurface):
         """
         track = self.song().view.selected_track
         drum_device = find_if(lambda d: d.can_have_drum_pads, track.devices)
+        if "drum_rack" in track.name.lower(): drum_device = True  # If the track title has "drum_rack in the name.. force a sequencer config for the track"
         self._step_sequencer.set_drum_group_device(drum_device)
         if track == None or track.is_foldable or track in self.song().return_tracks or track == self.song().master_track:
             self._note_modes.selected_mode = 'disabled'
