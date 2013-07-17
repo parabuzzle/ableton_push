@@ -1,7 +1,7 @@
 Ableton Push Python Scripts
 ============
 
-If you like what I'm doing here... help a brother out :) -> http://pledgie.com/campaigns/20946
+If you like what I'm doing here... help a brother out :) -> <a href='http://www.pledgie.com/campaigns/20946'><img alt='Click here to lend your support to: Customized Ableton Push Config and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/20946.png?skin_name=chrome' border='0' /></a>
 
 My customized Ableton Push MIDI remote python scripts directory
 
